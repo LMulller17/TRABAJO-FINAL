@@ -144,7 +144,6 @@ section{
     
     text-align: center;
     border: aliceblue;
-    /*background: rgba(5, 7, 12, 0.60);*/
     color: rgb(0, 0, 0);
 
 }
@@ -288,8 +287,16 @@ footer {
 }
 
 /*mobile styles*/
-@media only screen and  (max-width:300px){
+@media only screen and (min-width: 321px) and (max-width: 768px){
+  
 
+    footer {
+        background-color: #5b90bb;
+    }
+
+    header {
+        background-color: #5b90bb;
+    }
  
 }
 
