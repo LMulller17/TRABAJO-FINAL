@@ -12,20 +12,20 @@ Swal.fire({
 	// html:
 	 icon: "warning",
 	 confirmButtonText: "Confirmar",
-	 footer: "Estas es informacion importante",
+	 footer: "Esta es informacion importante",
 	 width: "90%",
 	 padding: "1rem",
 	// background: "blue",///////
-	// grow:
-	 backdrop: "true",
+	 grow: "row",
+	 backdrop: true,
 	// timer:
 	// timerProgressBar:
 	// toast:
 	 position: "center",
-	 allowOutsideClick: "false",
-	 allowEscapeKey: "false",
-	 allowEnterKey: "false",
-	 stopKeydownPropagation: "false",
+	 allowOutsideClick: false,
+	 allowEscapeKey: false,
+	 allowEnterKey: false,
+	 stopKeydownPropagation: false,
 
 	// input:
 	// inputPlaceholder:
